@@ -382,7 +382,7 @@ networks:
     driver: bridge
     ipam:
       config:
-        - subnet:172.31.2.0/24
+        - subnet: 172.31.2.0/24
   reverse_proxy:
     name: reverse_proxy
     external: true
